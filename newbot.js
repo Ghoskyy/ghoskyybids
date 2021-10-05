@@ -479,19 +479,6 @@ fs.unlinkSync(filename)
         },
       },
     };
-    const fakestatus = (teks) => {
-
-      resta.sendMessage(from, teks, text, {
-
-        quoted: {
-          key: {
-            fromMe: false,
-            participant: `0@s.whatsapp.net`,
-            ...(from ? { remoteJid: "status@broadcast" } : {}),
-          },
-      contextInfo: { forwardingScore: 999, isForwarded: true },
-      sendEphemeral: true,
-    };
        if (isCmd && isGroup) {
        tmp_hit.push(command)
        fs.writeFileSync('./src/hit.json', JSON.stringify(tmp_hit))
