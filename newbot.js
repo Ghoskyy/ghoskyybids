@@ -77,7 +77,7 @@ const { menu } = require('./lib/menu')
 const _prem = require("./lib/premium");
 const { isLimit, limitAdd, getLimit, giveLimit, addBalance, kurangBalance, getBalance, isGame, gameAdd, givegame, cekGLimit } = require("./lib/limit");
 /******************************* By Resta Gw Add no api semua yaa *******************************/
-const balance = JSON.parse(fs.readFileSync('./database/balance.json'));
+const balance = JSON.parse(fs.readFileSync('./lib/balance.json'));
 const limit = JSON.parse(fs.readFileSync('./database/limit.json'));
 const glimit = JSON.parse(fs.readFileSync('./database/glimit.json'));
 const welcome = JSON.parse(fs.readFileSync('./database/welcome.json'));
