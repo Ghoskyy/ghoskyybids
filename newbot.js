@@ -78,11 +78,11 @@ const _prem = require("./lib/premium");
 const { isLimit, limitAdd, getLimit, giveLimit, addBalance, kurangBalance, getBalance, isGame, gameAdd, givegame, cekGLimit } = require("./lib/limit");
 /******************************* By Resta Gw Add no api semua yaa *******************************/
 const balance = JSON.parse(fs.readFileSync('./lib/balance.json'));
-const limit = JSON.parse(fs.readFileSync('./database/limit.json'));
-const glimit = JSON.parse(fs.readFileSync('./database/glimit.json'));
-const welcome = JSON.parse(fs.readFileSync('./database/welcome.json'));
-const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'));
-const premium = JSON.parse(fs.readFileSync('./database/premium.json'))
+const limit = JSON.parse(fs.readFileSync('./lib/limit.json'));
+const glimit = JSON.parse(fs.readFileSync('./lib/glimit.json'));
+const welcome = JSON.parse(fs.readFileSync('./lib/welcome.json'));
+const antilink = JSON.parse(fs.readFileSync('./lib/antilink.json'));
+const premium = JSON.parse(fs.readFileSync('./lib/premium.json'))
 const tmp_hit = JSON.parse(fs.readFileSync('./src/hit.json'))
 const tmphit = JSON.parse(fs.readFileSync('./src/today.json'))
 const _claim = JSON.parse(fs.readFileSync('./database/claim.json'))
