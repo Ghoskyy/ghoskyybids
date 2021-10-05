@@ -660,8 +660,8 @@ family100.splice(game.getfamposi(from, family100), 1)
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
 				const json = {	
-				"sticker-pack-name": by Ghosky bid,
-				"sticker-pack-publisher": @iamghosky_,
+				"sticker-pack-name": ,
+				"sticker-pack-publisher": ,
 				}
 				const littleEndian = Buffer.from([0x49, 0x49, 0x2A, 0x00, 0x08, 0x00, 0x00, 0x00, 0x01, 0x00, 0x41, 0x57, 0x07, 0x00])	
 				const bytes = [0x00, 0x00, 0x16, 0x00, 0x00, 0x00]	
